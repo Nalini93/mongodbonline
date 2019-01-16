@@ -4,6 +4,7 @@ deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
   file: "./build/libs/mongodbonline-0.0.1-SNAPSHOT.jar"
+deploy:
   provider: heroku
   api_key: $HEROKU_OAUTH_TOKEN
   app: mongodbonline
